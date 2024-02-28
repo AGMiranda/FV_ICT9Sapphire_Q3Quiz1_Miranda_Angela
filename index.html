@@ -28,35 +28,38 @@
             max-width: 100%;
             height: auto;
         }
+
+        .navbar-brand img {
+            max-width: 80px; /* Adjust the value as needed */
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-sm bg-dark">
-<a class="navbar-brand" href="#"><img src="https://imgur.com/nJPpYsQ.png" id="brand"></a>
-<div id="topnav">
-    <ul>
-    <li class="nav-item">
-        <a class="nav-link" href="#">home</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">main character</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">antagonist </a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#"> side characters</a>
-    </li>
-  </ul>
-</div>
-<div class="search-container"></div>
-    <form>
-        <input type="search" placeholder="Search" name="search" class="searchinput">
-        <button type="submit" class="searchsub btn-sucess">Submit</button>
-    </form>
-</div>
-</nav>   
+        <a class="navbar-brand" href="#"><img src="https://imgur.com/nJPpYsQ.png" id="brand"></a>
+        <div id="topnav">
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">main character</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">antagonist </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> side characters</a>
+                </li>
+            </ul>
+        </div>
+        <div class="search-container"></div>
+        <form>
+            <input type="search" placeholder="Search" name="search" class="searchinput">
+            <button type="submit" class="searchsub btn-sucess">Submit</button>
+        </form>
+    </nav>
     <div class="container">
         <h1>The movies I watched last year</h1>
 
@@ -113,10 +116,3 @@
             </div>
         </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
-</html>
